@@ -8,8 +8,8 @@ namespace ShoppingCart.DTO
 {
     public class DoveSoap : IItem
     {
-        public float price { get => price; set => price = 39.99f; }
-        public int quantity { get => quantity; set => quantity = 1; }
+        public float price { get; set; }
+        public int quantity { get; set; }
 
         public DoveSoap(float priceIn = 39.99f, int quantityIn = 1)
         {
